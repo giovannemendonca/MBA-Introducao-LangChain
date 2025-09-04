@@ -1,0 +1,11 @@
+.env
+.venv
+.vscode
+.idea
+.pytest_cache
+.pytest_cache/
+.pytest_cache/v/cache/lastfailed
+.pytest_cache/v/cache/nodeids
+.pytest_cache/v/cache/stepwise
+.pytest_cache/v/cache/stepwise
+venv
