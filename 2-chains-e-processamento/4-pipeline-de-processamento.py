@@ -24,6 +24,6 @@ translate = template_translate | llm_en | StrOutputParser()
 
 pipeline = {"text": translate} | template_summary | llm_en | StrOutputParser()
 
-result = pipeline.invoke({"initial_text", "LangChain é um framework para desenvolvimento de aplicações com IA"})
+result = pipeline.invoke({"initial_text": "LangChain é um framework para desenvolvimento de aplicações com IA"})
 
 print(result)
